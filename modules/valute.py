@@ -36,7 +36,7 @@ NumCode: {getNumCode(valute=self)}
 CharCode: {getCharCode(valute=self)}
 Nominal: {getNominal(valute=self)}
 Name: {getName(valute=self)}
-Value: {getValue(valute=self)} {getTrend(self)}
-Previous: {getPrevious(valute=self)}
+Value: {getValue(valute=self)}₽ {getTrend(self)}
+Previous: {getPrevious(valute=self)}₽
 '''
     )
