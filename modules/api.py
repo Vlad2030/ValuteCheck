@@ -14,7 +14,7 @@ def getRequest(api_server, type, method):
         else:
             return print('ErrorType')
     except Exception as e:
-        return print('ErrorURL: {e}')
+        return print(f'ErrorURL: {e}')
 
 def getJson(self):
     try:
